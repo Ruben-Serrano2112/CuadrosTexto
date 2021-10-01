@@ -25,19 +25,18 @@ namespace CuadrosTexto
             InitializeComponent();
         }
 
-        private void Ayuda_KeyUp(object sender, KeyEventArgs e)
-        {
-
-        }
-
         private void Ayuda_KeyDown(object sender, KeyEventArgs e)
         {
-
+            if(e.Key == Key.F1)
+            {
+                
+            }
+            
         }
 
         private void Confirmacion_keyUp(object sender, KeyEventArgs e)
         {
-
+            
         }
     }
 }

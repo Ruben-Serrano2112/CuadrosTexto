@@ -7,12 +7,15 @@
         mc:Ignorable="d"
         Title="Cuadros de Texto" Height="450" Width="800" Icon="assets/yes_ok_check_mark_checkmark_tick_green.ico">
     <Grid>
-        <TextBlock Text="Nombre" Margin="550,56,59,311" FontSize="36"/>
-        <TextBlock Text="Apellido" Margin="550,177,59,190" FontSize="36" RenderTransformOrigin="0.547,1.495"/>
-        <TextBox Margin="39,32,294,295"  KeyUp="Ayuda_KeyUp" KeyDown="Ayuda_KeyDown"/>
-        <TextBox Margin="39,161,294,166"  KeyUp="Ayuda_KeyUp" KeyDown="Ayuda_KeyDown"/>
-        <TextBox Margin="39,296,294,31" KeyUp="Confirmacion_keyUp"/>
-        <TextBlock Text="Edad" Margin="550,314,59,53" FontSize="36" RenderTransformOrigin="0.547,1.495"/>
+        <TextBlock Text="Nombre" Margin="39,0,570,367" FontSize="36"/>
+        <TextBlock Text="Apellido" Margin="39,125,570,242" FontSize="36" RenderTransformOrigin="0.547,1.495"/>
+        <TextBlock Text="Edad" Margin="39,258,570,109" FontSize="36" RenderTransformOrigin="0.547,1.495"/>
+        <TextBlock Tag="Ayuda nombre" Margin="260,56,319,295" FontSize="36"/>
+        <TextBlock Tag="Ayuda apellido" Margin="260,185,319,166" FontSize="36"/>
+        <TextBox Margin="39,56,556,295" KeyDown="Ayuda_KeyDown"/>
+        <TextBox Margin="39,177,556,166" KeyDown="Ayuda_KeyDown"/>
+        <TextBox Margin="39,314,556,31" KeyUp="Confirmacion_keyUp"/>
+        
 
     </Grid>
 </Window>
